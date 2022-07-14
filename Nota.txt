@@ -1,0 +1,35 @@
+<?php 
+
+
+el usuario y controseña del usuario de la base de datos se cambia en 
+/controlador/conexion.php
+
+
+	http://localhost/modulos/vistas/vistaAlumnos.php?id_alumno=27 
+	
+	vistaAlumno.php Sirve para mostrar las materias en la cual está activo el alumno, está operacion se realiza por medio de su ID
+
+	http://localhost/modulos/vistas/alumnosTareas.php
+
+	alumnosTareas.php
+	este modulo sirve para en listar todas las tareas  o practicas de una materia y unidads que asigno el profesor
+
+
+	http://localhost/modulos/vistas/vistaProfesores.php?profesor=1
+	
+	vistaProfesores.php
+	Sirve para mostrar los grupos en los que está inscrito un maestro, la informacion es validada por medio del id del profesor... 
+
+
+	http://localhost/modulos/vistas/listarUnidades.php
+	
+	listarUnidades.php
+	muestra todas las unidades de una materia en especifico, y también muestra las tareas que se dejaron en cada una de ellas.
+	
+
+	 http://localhost/modulos/vistas/verTareas.php
+	 
+	 verTareas.php
+	 muestra un grupo de alumnos para la revision de tarea
+	 
+	 ?>
